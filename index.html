@@ -24,9 +24,6 @@
                             <a class="nav-link text-white" href="#cursus">Cursus</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#experiences">Expériences</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-white" href="#projets">Projets</a>
                         </li>
                         <li class="nav-item">
@@ -38,10 +35,20 @@
 
 
 
-            <section id="presentation">
+            <section id="presentation" class="py-5 text-center">
                 <div class="container">
-                <p>Biographie</p>
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <img src="ui/images/moi.png" id="moi" class="rounded-circle img-fluid" alt="Magnifique photo de moi"><br><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 mx-auto text-white">
+                            <p>Je suis Youssef FADILI, développeur passionné dans le développement de logiciels. Mes compétences sont principalement constituées de Python, C et d'SQL, mais je maîtrise aussi moyennement PHP et puis très légèrement HTML, CSS et Javascript. Ce qui me passionne dans le code c'est la création d'algorithmes et la gestion de l'affichage. <br><br> J'ai réalisé au cours des deux dernières années plusieurs projets de groupes et individuels, pour la plupart en python. Ces projets vont de courts tests pour tester des librairies à de longs projets dont l'interface est elle aussi gérée, la plupart des longs projets sont des jeux tandis que les courts projets souvent affichés dans le terminal sont des utilitaires pour gagner du temps ou de l'argent.</p>
+                        </div>
+                    </div>
                 </div>
+                <br><br><br>
             </section>
             
 
@@ -51,10 +58,9 @@
                     <br>
                     <h2 class="text-center mb-4 text-white">Mon Cursus Scolaire</h2>
                     <div class="row">
-                        <!-- Étape 1 -->
                         <div class="col-md-4">
                             <div class="card bg-dark text-center">
-                                <div class="card-img-top rounded-circle">
+                                <div class="card-img-top">
                                     <img src="ui/images/khrari.png" alt="Étape 1" class="img-fluid">
                                 </div>
                                 <div class="card-body text-white">
@@ -64,10 +70,9 @@
                             </div>
                         </div>
             
-                        <!-- Étape 2 -->
                         <div class="col-md-4">
                             <div class="card bg-dark text-center">
-                                <div class="card-img-top rounded-circle">
+                                <div class="card-img-top">
                                     <img src="ui/images/cy_tech1.png" alt="Étape 2" class="img-fluid">
                                 </div>
                                 <div class="card-body text-white">
@@ -77,10 +82,9 @@
                             </div>
                         </div>
             
-                        <!-- Étape 3 -->
                         <div class="col-md-4">
                             <div class="card bg-dark text-center">
-                                <div class="card-img-top rounded-circle">
+                                <div class="card-img-top">
                                     <img src="ui/images/hep.png" alt="Étape 3" class="img-fluid">
                                 </div>
                                 <div class="card-body text-white">
@@ -108,7 +112,7 @@
                                 <img src="ui/images/Pythomon1.png" class="card-img-top" alt="Projet 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Pythomon</h5>
-                                    <p class="card-text">Tout premier "long" projet<br>Réalisé à 4 à l'aide de pygame</p>
+                                    <p class="card-text">Tout premier "long" projet<br>Réalisé à 4 à l'aide de pygame<br>Inspiré de Final Fantasy</p>
                                 </div>
                                 <div class="card-footer">
                                     <span class="badge">Python</span>
@@ -123,7 +127,7 @@
                                 <img src="ui/images/blackwing2.png" class="card-img-top" alt="Projet 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Aile Noire Culture</h5>
-                                    <p class="card-text">Jeu de devinette en multijoueur<br>Basé sur Kculture mais en python</p>
+                                    <p class="card-text">Jeu de culture en multijoueur<br>Basé sur Kculture mais en python<br>Utilisation de socket</p>
                                 </div>
                                 <div class="card-footer">
                                     <span class="badge">Python</span>
@@ -139,7 +143,7 @@
                                 <img src="ui/images/new_d.png" class="card-img-top" alt="Projet 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Jeu de devinettes</h5>
-                                    <p class="card-text">Encore un jeu basé sur la culture dans lequel il faut trier des choses par âge</p>
+                                    <p class="card-text">Encore un jeu basé sur la culture dans lequel il faut trier des jeux, manga ou personnalité par âge</p>
                                 </div>
                                 <div class="card-footer">
                                     <span class="badge">Python</span>
@@ -153,7 +157,7 @@
                                 <img src="ui/images/seul_jeu_non_culture.gif" class="card-img-top" alt="Projet 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Jeu vite fait d'action</h5>
-                                    <p class="card-text">Seul jeu non basé sur de la culture<br>Un peu plus dur à gérer que les autres</p>
+                                    <p class="card-text">Seul jeu non basé sur de la culture<br>Un peu plus dur à gérer que les autres<br>Surtout basé sur les réflexes</p>
                                 </div>
                                 <div class="card-footer">
                                     <span class="badge">Python</span>
@@ -167,10 +171,27 @@
                                 <img src="ui/images/pokedex.png" class="card-img-top" alt="Projet 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Pokédex de mémoire</h5>
-                                    <p class="card-text">Consiste à restituer le pokédex de tête<br>Pas fun mais fonctionnel</p>
+                                    <p class="card-text">Consiste à restituer le pokédex de tête<br>Malheuresement pas très fun ...<br>Mais l'affichage est fonctionnel</p>
                                 </div>
                                 <div class="card-footer">
                                     <span class="badge">Python</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 mb-4">
+                            <div class="card bg-dark text-white">
+                                <!-- <img src="ui/images/pokedex.png" class="card-img-top" alt="Projet 1"> -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Divers scripts mineurs</h5>
+                                    <p class="card-text">D'autres projets plus courts sans interface visuelle, afin de par exemple lister le nombre d'occurence des pixels d'une image, générer un fond d'écran aléatoirement, optimiser les dépenses d'un bon d'achat à l'aide de mathématiques, automatiser la création de requêtes sql pour une BDD, jeu basé sur la culture où il faut reconnaître des personnages ou personnalités et puis programme pour aider les artistes en manque d'inspiration en générant des suggestions de dessins.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <span class="badge">Python</span>
+                                    <span class="badge">SQL</span>
+                                    <span class="badge">C</span>
+                                    <span class="badge">Maths</span>
                                 </div>
                             </div>
                         </div>
@@ -225,20 +246,20 @@
                 <hr style="border: 1px solid #ffffff;"> 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <br>
-                            <h5>À propos de moi</h5>
-                            <p>Moche mais responsive 👍</p>
+                            <h5>À propos</h5>
+                            <p>Portfolio pas très beau mais responsive 👍</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h5>Liens rapides</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#presentation">Accueil</a></li>
+                                <li><a href="#presentation">Présentation</a></li>
                                 <li><a href="#projets">Projets</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="ui/images/abel.png">Beau gosse</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h5>Autre contact</h5>
                             <address>
                                 <i class="fa fa-phone"></i>Tel : 07 92 35 72 39<br>
