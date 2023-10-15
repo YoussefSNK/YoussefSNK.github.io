@@ -7,7 +7,6 @@ body {
   animation: fondAnime 30s cubic-bezier(1, 0.36, 0, 0.59) infinite;
 }
 
-
 #fond-anime {
   position: relative;
   z-index: 1; 
@@ -25,16 +24,11 @@ body {
   }
 }
 
-
-/* Taille texte navbar */
-.navbar-nav .nav-link {
+.navbar-nav .nav-link {/* Taille texte navbar */
     font-size: 25px;
 }
 
-
-
-/*Formulaire de contact*/
-.form-control::placeholder {
+.form-control::placeholder {/*Formulaire de contact*/
     color: #ffffff; 
     opacity: 0.5;
 }
