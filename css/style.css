@@ -7,17 +7,9 @@ body {
   animation: fondAnime 30s cubic-bezier(1, 0.36, 0, 0.59) infinite;
 }
 
-/* .cursus { à réactiver après peut être
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(45deg, #ffffff,  #00b7ff, #00ff37, #bbff00, #ffee00, #ffffff);
-  background-size: 400% 400%;
-  background-attachment: fixed;
-  animation: fondAnime 30s cubic-bezier(1, 0.36, 0, 0.59) infinite;
-} */
 
 #fond-anime {
-  position: relative; /*ça marche enfin ptn */
+  position: relative;
   z-index: 1; 
 }
   
@@ -36,19 +28,13 @@ body {
 
 /* Taille texte navbar */
 .navbar-nav .nav-link {
-    font-size: 50px;
-}
-
-/* Partie projet*/
-.carousel-inner img {
-  max-height: 100%;
-  width: auto;
+    font-size: 25px;
 }
 
 
 
 /*Formulaire de contact*/
-.form-control::placeholder {/*bon ff à régler plus tard ou à tej nsm*/
+.form-control::placeholder {
     color: #ffffff; 
     opacity: 0.5;
 }
