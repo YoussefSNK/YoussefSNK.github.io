@@ -1,7 +1,16 @@
-body {
+#bodo {
   margin: 0;
   padding: 0;
   background: linear-gradient(45deg, #000000, #2c0030, #16003f,  #000e5a, #00212e, #002e1c, #053600, #08331f, #41005f, #000000, #000000);
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  animation: fondAnime 30s cubic-bezier(1, 0.36, 0, 0.59) infinite;
+}
+
+#boda {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #000000, #313131, #383838,  #3a3a3a, #2c2c2c, #5e5e5e, #141414, #3b3b3b, #333333, #2b2b2b, #000000);
   background-size: 400% 400%;
   background-attachment: fixed;
   animation: fondAnime 30s cubic-bezier(1, 0.36, 0, 0.59) infinite;
