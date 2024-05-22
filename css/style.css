@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(45deg, #000000, #2c0030, #16003f,  #000e5a, #00212e, #002e1c, #053600, #0f633c, #41005f, #000000, #000000);
+  background: linear-gradient(45deg, #000000, #2c0030, #16003f,  #000e5a, #00212e, #002e1c, #053600, #08331f, #41005f, #000000, #000000);
   background-size: 400% 400%;
   background-attachment: fixed;
   animation: fondAnime 30s cubic-bezier(1, 0.36, 0, 0.59) infinite;
